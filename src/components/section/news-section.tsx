@@ -33,7 +33,19 @@ export default function NewsSection() {
                 {t(item.date)}
               </time>
               <div className="text-muted-foreground prose prose-sm max-w-none dark:prose-invert [&_p]:m-0 [&_em]:italic">
-                <Markdown>{t(item.text)}</Markdown>
+                <Markdown
+                  components={{
+                    a: ({ ...props }) => (
+                      <a
+                        {...props}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      />
+                    ),
+                  }}
+                >
+                  {t(item.text)}
+                </Markdown>
               </div>
             </li>
           </BlurFade>

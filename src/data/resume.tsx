@@ -139,7 +139,7 @@ export const DATA = {
         "AI modeling for multivariate time-series server metrics as part of an agentic security/observability solution. Responsible for modeling, benchmark design, and data analysis.",
         "Agentic 보안·관제 솔루션의 일환으로 다변량 시계열 서버 메트릭 이상 탐지·장애 예측 AI 개발. 모델링, 벤치마크 설계, 데이터 분석 담당."
       ),
-      technologies: ["Time-series", "PyTorch", "LLMs"],
+      technologies: ["Time-series", "ML", "ICL"],
     },
     {
       title: L(
@@ -239,25 +239,14 @@ export const DATA = {
       venue: L("IEEE Access", "IEEE Access"),
       date: L("Nov 2025", "2025.11"),
     },
-  ],
-
-  socialSciencePublications: [
     {
       title: L(
-        "The Relationship between Social Media Use and K-Content Brand Power: U&G and COBRAs based platform comparison",
-        "한류 영향력 확대를 위한 소셜미디어 이용과 K-Content 브랜드 파워의 관계 연구: U&G 및 COBRAs 기반 플랫폼 비교"
+        "Modeling Customer Satisfaction based on Kano Model from Online Reviews: Focused on Deep Learning Natural Language Processing",
+        "Modeling Customer Satisfaction based on Kano Model from Online Reviews: Focused on Deep Learning Natural Language Processing"
       ),
-      authors: [
-        { name: "Duk-Jin Kim" },
-        { name: "Myeong Seok Oh", self: true },
-        { name: "Kyung-Hyun Lee" },
-        { name: "Gwang-Yong Gim" },
-      ],
-      venue: L(
-        "Journal of Korea Service Management Society",
-        "한국서비스경영학회지"
-      ),
-      date: L("Dec 2021", "2021.12"),
+      authors: [{ name: "Myeong Seok Oh", self: true }],
+      venue: L("M.S. Thesis, Soongsil University", "숭실대학교 석사학위논문"),
+      date: L("Feb 2022", "2022.02"),
     },
     {
       title: L(
@@ -295,32 +284,14 @@ export const DATA = {
       ),
       date: L("Dec 2020", "2020.12"),
     },
-    {
-      title: L(
-        "A Study on the Intention to Use Smart Healthcare",
-        "스마트 헬스케어 사용의도에 관한 연구"
-      ),
-      authors: [
-        { name: "Eun-Tack Im" },
-        { name: "Gwang-Yong Gim" },
-        { name: "Na-Yeon Kang" },
-        { name: "Yun-Hee Choi" },
-        { name: "Myeong Seok Oh", self: true },
-      ],
-      venue: L(
-        "Journal of Global Business Society",
-        "글로벌경영학회지"
-      ),
-      date: L("Aug 2020", "2020.08"),
-    },
   ],
 
   news: [
     {
       date: L("Apr 2026", "2026.04"),
       text: L(
-        "Our paper *Subject-level inference for realistic text anonymization evaluation* has been accepted to **ACL 2026 (Main Conference)**.",
-        "저희 논문 *Subject-level inference for realistic text anonymization evaluation* 이 **ACL 2026 (Main Conference)** 에 게재 승인되었습니다."
+        "Our paper [SPIA](https://github.com/maisonOP/spia) has been accepted to **ACL 2026 (Main Conference)**. 🎉 Let's go, San Diego!",
+        "저희 논문 [SPIA](https://github.com/maisonOP/spia) 가 **ACL 2026 (Main Conference)** 에 게재 승인되었습니다. 🎉 샌디에고 가자!"
       ),
     },
     {
@@ -381,15 +352,6 @@ export const DATA = {
       "제가 참여한 프로젝트"
     ),
     publications: L("Research", "Research"),
-    publicationsHeadline: L(
-      "Research in artificial intelligence and machine learning",
-      "Research in artificial intelligence and machine learning"
-    ),
-    socialSciencePublications: L("Research", "Research"),
-    socialSciencePublicationsHeadline: L(
-      "Research in information systems and social science",
-      "Research in information systems and social science"
-    ),
     language: L("Language", "언어"),
     theme: L("Theme", "테마"),
     showMore: L("Show more", "더 보기"),
