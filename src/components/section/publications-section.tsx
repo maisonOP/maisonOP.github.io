@@ -44,18 +44,21 @@ export default function ResearchSection() {
                     {title}
                   </h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    {pub.authors.map((a, i) => (
-                      <Fragment key={`${a.name}-${i}`}>
-                        {i > 0 && ", "}
-                        {a.self ? (
-                          <span className="font-semibold text-foreground">
-                            {a.name}
-                          </span>
-                        ) : (
-                          a.name
-                        )}
-                      </Fragment>
-                    ))}
+                    {pub.authors.map((a, i) => {
+                      const isSelf = "self" in a && a.self === true;
+                      return (
+                        <Fragment key={`${a.name}-${i}`}>
+                          {i > 0 && ", "}
+                          {isSelf ? (
+                            <span className="font-semibold text-foreground">
+                              {a.name}
+                            </span>
+                          ) : (
+                            a.name
+                          )}
+                        </Fragment>
+                      );
+                    })}
                   </p>
                   <p className="text-sm text-muted-foreground italic">
                     {t(pub.venue)}
