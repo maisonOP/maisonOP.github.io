@@ -95,9 +95,17 @@ export default function VitaeSection() {
   ].sort((a, b) => b.sortKey - a.sortKey);
 
   return (
-    <div className="flex min-h-0 flex-col gap-y-6">
+    <div className="flex min-h-0 flex-col gap-y-8">
       <BlurFade delay={BLUR_FADE_DELAY * 5}>
-        <h2 className="text-xl font-bold">{t(DATA.sections.vitae)}</h2>
+        <div className="flex items-center w-full">
+          <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
+          <div className="border bg-primary z-10 rounded-xl px-4 py-1">
+            <span className="text-background text-sm font-medium">
+              {t(DATA.sections.vitae)}
+            </span>
+          </div>
+          <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
+        </div>
       </BlurFade>
       <BlurFade delay={BLUR_FADE_DELAY * 6}>
         <div className="relative">
@@ -110,6 +118,16 @@ export default function VitaeSection() {
                   <span
                     aria-hidden
                     className="absolute z-10 size-[10px] rounded-full border-2 border-primary bg-background top-3 left-[11px] -translate-x-1/2 md:left-1/2"
+                  />
+                  <span
+                    aria-hidden
+                    className={cn(
+                      "absolute z-0 h-px bg-border top-[17px]",
+                      "left-[11px] w-5",
+                      isLeft
+                        ? "md:left-auto md:right-1/2 md:w-10"
+                        : "md:left-1/2 md:w-10"
+                    )}
                   />
                   <div
                     className={cn(

@@ -10,11 +10,14 @@ type Props = {
   className?: string;
   toastPlacement?: "top" | "bottom";
   ariaLabel?: string;
-};
+} & Omit<
+  React.ButtonHTMLAttributes<HTMLButtonElement>,
+  "onClick" | "type" | "aria-label" | "className" | "children"
+>;
 
 export const CopyEmailButton = forwardRef<HTMLButtonElement, Props>(
   function CopyEmailButton(
-    { email, children, className, toastPlacement = "top", ariaLabel },
+    { email, children, className, toastPlacement = "top", ariaLabel, ...rest },
     ref
   ) {
   const [copied, setCopied] = useState(false);
@@ -47,6 +50,7 @@ export const CopyEmailButton = forwardRef<HTMLButtonElement, Props>(
     <button
       ref={ref}
       type="button"
+      {...rest}
       onClick={handleClick}
       aria-label={ariaLabel ?? `Copy email ${email}`}
       className={cn("relative", className)}

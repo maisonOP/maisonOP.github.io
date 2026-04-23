@@ -17,11 +17,11 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/seoul",
   description: L(
     "AI Research Engineer working on data-centric ML, evaluation, and alignment.",
-    "data-centric ML, evaluation, alignment에 관심을 둔 AI Research Engineer."
+    "data-centric ML·evaluation·alignment을 연구하는 AI Research Engineer."
   ),
   summary: L(
-    "I am an AI Research Engineer interested in building and evaluating AI models under the **data-centric ML** paradigm. My work spans dataset and benchmark design, evaluation methodology, and alignment — with a focus on how the data pipeline itself shapes model behavior. I am concurrently pursuing a Ph.D. at Soongsil University.",
-    "**data-centric ML** 패러다임 하에서 AI 모델을 개발하고 평가하는 일에 관심을 둔 AI Research Engineer입니다. 데이터셋·벤치마크 설계, evaluation 방법론, alignment에 걸쳐 연구하며, 데이터 파이프라인 자체가 모델의 행동을 어떻게 형성하는지에 주목합니다. 동시에 숭실대학교에서 박사 과정을 진행 중입니다."
+    "Currently an AI Research Engineer, I work on building and evaluating AI models under the **data-centric ML** paradigm — dataset and benchmark design, evaluation methodology, and alignment. I'm especially curious about how the data pipeline shapes model behavior, and about how to frame research problems and choose evaluation methods that actually fit them.",
+    "현재 AI Research Engineer로, **data-centric ML** 관점에서 AI 모델을 만들고 평가합니다. 데이터셋·벤치마크 설계, 평가 방법론, alignment를 주로 다루고 있어요. 데이터 파이프라인이 모델의 행동에 주는 영향, 그리고 문제 정의와 그에 맞는 평가 방법이 무엇인지에 특히 관심이 많습니다."
   ),
   avatarUrl: "/profile.jpg",
 
@@ -73,8 +73,8 @@ export const DATA = {
       start: L("Apr 2023", "2023.04"),
       end: L("Present", "현재"),
       description: L(
-        "Research on privacy-preserving NLP and multimodal PII detection.",
-        "프라이버시 보존 NLP 및 멀티모달 개인정보 탐지 연구."
+        "Full-cycle AI research: data, modeling, evaluation, publication.",
+        "AI 연구 전 주기: 데이터, 모델링, 평가, 논문화."
       ),
     },
     {
@@ -86,8 +86,8 @@ export const DATA = {
       start: L("Jun 2022", "2022.06"),
       end: L("Apr 2023", "2023.04"),
       description: L(
-        "AI-based PII detection and de-identification for conversational text.",
-        "대화형 텍스트 대상 AI 기반 개인정보 탐지·비식별화 모델 개발."
+        "AI model development across data curation, training, evaluation, and deployment.",
+        "데이터 구축·학습·평가·배포 전반에 걸쳐 AI 모델 개발을 수행."
       ),
     },
   ],
@@ -97,8 +97,8 @@ export const DATA = {
       school: L("Soongsil University", "숭실대학교"),
       href: "https://www.ssu.ac.kr",
       degree: L(
-        "Ph.D. in Computer Engineering",
-        "박사 · 컴퓨터 공학"
+        "Ph.D. in Computer Science",
+        "박사 · 컴퓨터공학"
       ),
       logoUrl: "",
       start: L("Mar 2024", "2024.03"),
@@ -108,8 +108,8 @@ export const DATA = {
       school: L("Soongsil University", "숭실대학교"),
       href: "https://www.ssu.ac.kr",
       degree: L(
-        "M.S. in Computer Engineering",
-        "석사 · 컴퓨터 공학"
+        "M.S. in Computer Science",
+        "석사 · 컴퓨터공학"
       ),
       logoUrl: "",
       start: L("Mar 2020", "2020.03"),
@@ -131,13 +131,13 @@ export const DATA = {
   projects: [
     {
       title: L(
-        "Time-Series Anomaly Detection & Failure Prediction",
-        "시계열 이상 탐지 및 장애 예측"
+        "Time-Series Anomaly Detection & Failure Prediction on Server Metrics",
+        "서버 메트릭 시계열 이상 탐지·장애 예측"
       ),
       dates: L("Mar 2026 – Present", "2026.03 – 진행 중"),
       description: L(
         "AI modeling for multivariate time-series server metrics as part of an agentic security/observability solution. Responsible for modeling, benchmark design, and data analysis.",
-        "Agentic 보안·관제 솔루션의 일환으로 다변량 시계열 서버 메트릭 이상 탐지·장애 예측 AI 개발. 모델링, 벤치마크 설계, 데이터 분석 담당."
+        "Agentic 보안·관제 솔루션의 일부로, 다변량 서버 메트릭 시계열을 대상으로 한 이상 탐지·장애 예측 AI를 개발. 모델링·벤치마크 설계·데이터 분석을 담당."
       ),
       technologies: ["Time-series", "ML", "ICL"],
     },
@@ -149,7 +149,7 @@ export const DATA = {
       dates: L("Jan 2026 – Present", "2026.01 – 진행 중"),
       description: L(
         "Diffusion-based image editing model and benchmark for PII-bearing scene text in Korean. Built synthetic data generation pipelines and ran benchmark experiments.",
-        "한국어 장면 텍스트 내 개인정보를 대상으로 한 Diffusion 기반 이미지 편집 모델 및 벤치마크 개발. 합성 데이터 생성 파이프라인 구축 및 벤치마크 실험 수행."
+        "한국어 장면 텍스트(scene text) 속 개인정보를 대상으로, Diffusion 기반 이미지 편집 모델과 벤치마크를 개발. 합성 데이터 생성 파이프라인을 구축하고 벤치마크 실험을 수행."
       ),
       technologies: ["Vision", "Diffusion", "Scene Text", "Synthetic Data"],
     },
@@ -161,7 +161,7 @@ export const DATA = {
       dates: L("Sep 2025 – Jan 2026", "2025.09 – 2026.01"),
       description: L(
         "Diffusion-based face replacement pipeline for image anonymization — swapping real faces with reference faces while preserving pose and expression. Built a ReferenceNet-based swap module as a higher-utility alternative to blur/mosaic.",
-        "이미지 비식별화를 위한 Diffusion 기반 얼굴 교체 파이프라인 개발. 포즈·표정을 유지한 채 참조 얼굴로 대체하며, ReferenceNet 기반 스왑 모듈로 블러·모자이크 대비 이미지 활용도를 높임."
+        "이미지 비식별화를 위한 Diffusion 기반 얼굴 교체 파이프라인을 개발. 포즈와 표정을 유지한 채 참조 얼굴로 교체하며, ReferenceNet 기반 스왑 모듈을 통해 블러·모자이크 방식보다 이미지의 활용도를 높임."
       ),
       technologies: ["Vision", "Diffusion", "Face Swap"],
     },
@@ -173,7 +173,7 @@ export const DATA = {
       dates: L("Apr 2025 – Present", "2025.04 – 진행 중"),
       description: L(
         "Multimodal AI for privacy-preserving PII detection, tracking, and de-identification across modalities. Leading research design and modeling.",
-        "멀티모달 전반의 개인정보 탐지·추적·비식별화 AI 연구. 연구 설계 및 모델링 주도."
+        "멀티모달 전반에서 개인정보를 탐지·추적·비식별화하는 AI 연구. 연구 설계와 모델링을 주도."
       ),
       technologies: ["Agentic system", "Multimodal", "Privacy", "De-identification"],
     },
@@ -185,7 +185,7 @@ export const DATA = {
       dates: L("Jan 2023 – Dec 2024", "2023.01 – 2024.12"),
       description: L(
         "AI-based PII detection and de-identification for conversational text. Built the modeling stack and a practitioner-facing web application.",
-        "대화형 텍스트 대상 AI 기반 개인정보 탐지·비식별화 기술 개발. 모델링 스택 및 실무용 웹 애플리케이션 구축."
+        "대화형 텍스트를 대상으로 AI 기반 개인정보 탐지·비식별화 기술을 개발. 모델링 스택과 실무용 웹 애플리케이션을 구축."
       ),
       technologies: ["NLP", "Transformers", "Web App"],
     },
@@ -291,7 +291,7 @@ export const DATA = {
       date: L("Apr 2026", "2026.04"),
       text: L(
         "Our paper [SPIA](https://github.com/maisonOP/spia) has been accepted to **ACL 2026 (Main Conference)**. 🎉 Let's go, San Diego!",
-        "저희 논문 [SPIA](https://github.com/maisonOP/spia) 가 **ACL 2026 (Main Conference)** 에 게재 승인되었습니다. 🎉 샌디에고 가자!"
+        "저희 논문 [SPIA](https://github.com/maisonOP/spia)가 **ACL 2026 (Main Conference)**에 게재 승인되었습니다. 🎉 샌디에고 가자!"
       ),
     },
     {
@@ -304,15 +304,15 @@ export const DATA = {
     {
       date: L("Mar 2024", "2024.03"),
       text: L(
-        "Started Ph.D. at Soongsil University (Computer Engineering).",
-        "숭실대학교 박사 과정 시작 (컴퓨터 공학)."
+        "Started Ph.D. at Soongsil University (Computer Science).",
+        "숭실대학교 박사 과정 시작 (컴퓨터공학 전공)."
       ),
     },
     {
       date: L("Apr 2023", "2023.04"),
       text: L(
         "Joined T-Scientific as AI Research Engineer following the IT Nomads acquisition.",
-        "㈜아이티노매즈 인수합병으로 ㈜티사이언티픽 AI Research Engineer로 합류."
+        "㈜아이티노매즈 인수합병에 따라 ㈜티사이언티픽에 AI Research Engineer로 합류."
       ),
     },
     {
@@ -325,42 +325,38 @@ export const DATA = {
     {
       date: L("Feb 2022", "2022.02"),
       text: L(
-        "Completed M.S. at Soongsil University (Computer Engineering).",
-        "숭실대학교 석사 과정 졸업 (컴퓨터 공학)."
+        "Completed M.S. at Soongsil University (Computer Science).",
+        "숭실대학교 석사 과정 졸업 (컴퓨터공학 전공)."
       ),
     },
     {
       date: L("Mar 2020", "2020.03"),
       text: L(
-        "Started M.S. at Soongsil University (Computer Engineering).",
-        "숭실대학교 석사 과정 시작 (컴퓨터 공학)."
+        "Started M.S. at Soongsil University (Computer Science).",
+        "숭실대학교 석사 과정 시작 (컴퓨터공학 전공)."
       ),
     },
   ],
 
   sections: {
-    about: L("About", "소개"),
+    about: L("About", "About"),
     news: L("News", "News"),
     vitae: L("Vitæ", "Vitæ"),
     vitaeWork: L("Experience", "경력"),
     vitaeEducation: L("Education", "학력"),
     skills: L("Skills", "기술"),
     projects: L("Projects", "프로젝트"),
-    projectsOverline: L("Projects", "참여 프로젝트"),
-    projectsHeadline: L(
-      "Projects I've worked on",
-      "제가 참여한 프로젝트"
-    ),
+    projectsOverline: L("Projects", "Projects"),
     publications: L("Research", "Research"),
     language: L("Language", "언어"),
     theme: L("Theme", "테마"),
     showMore: L("Show more", "더 보기"),
     showLess: L("Show less", "접기"),
-    contact: L("Contact", "연락"),
-    contactHeadline: L("Get in touch", "연락하기"),
+    contact: L("Contact", "Contact"),
+    contactHeadline: L("Get in touch", "Get in touch"),
     contactBody: L(
-      "Reach out by email or LinkedIn for research, collaboration, or hiring discussions.",
-      "연구·협업·채용 관련 문의는 이메일이나 LinkedIn으로 부탁드립니다."
+      "Always up for a chat about research, collabs, or roles — drop me an email or a LinkedIn message!",
+      "연구, 협업, 채용 이야기 언제든 환영입니다! 이메일이나 LinkedIn으로 편하게 연락 주세요 :)"
     ),
     present: L("Present", "현재"),
   },

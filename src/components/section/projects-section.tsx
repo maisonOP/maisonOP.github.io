@@ -21,11 +21,6 @@ export default function ProjectsSection() {
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
           </div>
-          <div className="flex flex-col gap-y-3 items-center justify-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
-              {t(DATA.sections.projectsHeadline)}
-            </h2>
-          </div>
         </div>
         <div className="grid grid-cols-1 gap-3 max-w-[720px] mx-auto">
           {DATA.projects.map((project, id) => {
