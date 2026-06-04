@@ -23,7 +23,7 @@ export const DATA = {
     "Currently an AI Research Engineer, I work on building and evaluating AI models under the **data-centric ML** paradigm — dataset and benchmark design, evaluation methodology, and alignment. I'm especially curious about how the data pipeline shapes model behavior, and about how to frame research problems and choose evaluation methods that actually fit them.",
     "현재 AI Research Engineer로, **data-centric ML** 관점에서 AI 모델을 만들고 평가합니다. 데이터셋·벤치마크 설계, 평가 방법론, alignment를 주로 다루고 있어요. 데이터 파이프라인이 모델의 행동에 주는 영향, 그리고 문제 정의와 그에 맞는 평가 방법이 무엇인지에 특히 관심이 많습니다."
   ),
-  avatarUrl: "/profile.jpg",
+  avatarUrl: "/profile.png",
 
   skills: [
     { name: "Python", icon: Python },
