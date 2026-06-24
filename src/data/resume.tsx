@@ -20,8 +20,8 @@ export const DATA = {
     "data-centric ML·evaluation·alignment을 연구하는 AI Research Engineer."
   ),
   summary: L(
-    "Currently an AI Research Engineer, I work on building and evaluating AI models under the **data-centric ML** paradigm — dataset and benchmark design, evaluation methodology, and alignment. I'm especially curious about how the data pipeline shapes model behavior, and about how to frame research problems and choose evaluation methods that actually fit them.",
-    "현재 AI Research Engineer로, **data-centric ML** 관점에서 AI 모델을 만들고 평가합니다. 데이터셋·벤치마크 설계, 평가 방법론, alignment를 주로 다루고 있어요. 데이터 파이프라인이 모델의 행동에 주는 영향, 그리고 문제 정의와 그에 맞는 평가 방법이 무엇인지에 특히 관심이 많습니다."
+    "I'm an AI Research Engineer with two main research interests. **(1) EEG-to-text**, generating language directly from thought. Also I'm happy to dive into any kind of **EEG & BCI** research. **(2) Evaluation and Datasets**. I like posing new challenges in unexplored areas of AI, and I believe good benchmarks are where solid AI design begins and where research becomes clearer.",
+    "AI Research Engineer로 일하면서 크게 두 가지를 연구하고 싶어요. **(1) EEG-to-text**, 생각에서 곧바로 언어를 만들어내는 연구입니다. 그리고 **EEG & BCI** 연구라면 무엇이든 즐겁게 해보고 싶어요. **(2) Evaluation & Datasets**. AI에서 아직 다뤄지지 않은 영역에 새로운 질문을 던지는 일을 좋아하고, 좋은 벤치마크야말로 탄탄한 AI 설계가 시작되는 곳이자 연구가 비로소 또렷해지는 지점이라고 믿습니다."
   ),
   avatarUrl: "/profile.png",
 
