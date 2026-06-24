@@ -20,8 +20,8 @@ export const DATA = {
     "data-centric ML·evaluation·alignment을 연구하는 AI Research Engineer."
   ),
   summary: L(
-    "I'm an AI Research Engineer with two main research interests.\n\n**(1) EEG-to-text**, generating language directly from thought. Also I'm happy to dive into any kind of EEG & BCI research.\n\n**(2) Evaluation and Datasets**. I like posing new challenges in unexplored areas of AI, and I believe good benchmarks are where solid AI design begins and where research becomes clearer.",
-    "AI Research Engineer로 일하면서 크게 두 가지를 연구하고 싶어요.\n\n**(1) EEG-to-text**, 생각에서 곧바로 언어를 만들어내는 연구입니다. 그리고 **EEG & BCI** 연구라면 무엇이든 즐겁게 해보고 싶어요.\n\n**(2) Evaluation & Datasets**. AI에서 아직 다뤄지지 않은 영역에 새로운 질문을 던지는 일을 좋아하고, 좋은 벤치마크야말로 탄탄한 AI 설계가 시작되는 곳이자 연구가 비로소 또렷해지는 지점이라고 믿습니다."
+    "I'm an AI Research Engineer with two main research interests.\n**(1) EEG-to-text**, generating language directly from thought. Also I'm happy to dive into any kind of EEG & BCI research.\n**(2) Evaluation and Datasets**. I like posing new challenges in unexplored areas of AI, and I believe good benchmarks are where solid AI design begins and where research becomes clearer.",
+    "AI Research Engineer로 일하면서 크게 두 가지를 연구하고 싶어요.\n**(1) EEG-to-text**, 생각에서 곧바로 언어를 만들어내는 연구입니다. 그리고 **EEG & BCI** 연구라면 무엇이든 즐겁게 해보고 싶어요.\n**(2) Evaluation & Datasets**. AI에서 아직 다뤄지지 않은 영역에 새로운 질문을 던지는 일을 좋아하고, 좋은 벤치마크야말로 탄탄한 AI 설계가 시작되는 곳이자 연구가 비로소 또렷해지는 지점이라고 믿습니다."
   ),
   avatarUrl: "/profile.png",
 
