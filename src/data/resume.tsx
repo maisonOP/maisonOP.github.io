@@ -244,9 +244,16 @@ export const DATA = {
         "Modeling Customer Satisfaction based on Kano Model from Online Reviews: Focused on Deep Learning Natural Language Processing",
         "Modeling Customer Satisfaction based on Kano Model from Online Reviews: Focused on Deep Learning Natural Language Processing"
       ),
-      authors: [{ name: "Myeong Seok Oh", self: true }],
-      venue: L("M.S. Thesis, Soongsil University", "숭실대학교 석사학위논문"),
-      date: L("Feb 2022", "2022.02"),
+      authors: [
+        { name: "Myeong Seok Oh", self: true },
+        { name: "Taehoon Kim" },
+        { name: "Eun-Tack Im" },
+      ],
+      venue: L(
+        "2022 IEEE/ACIS 7th International Conference on Big Data, Cloud Computing, and Data Science (BCD), pp. 22–26, IEEE",
+        "2022 IEEE/ACIS 7th International Conference on Big Data, Cloud Computing, and Data Science (BCD), pp. 22–26, IEEE"
+      ),
+      date: L("Aug 2022", "2022.08"),
     },
     {
       title: L(
