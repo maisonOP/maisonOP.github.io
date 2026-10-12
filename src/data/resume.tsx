@@ -137,6 +137,18 @@ export const DATA = {
   projects: [
     {
       title: L(
+        "Agentic System for Multimodal Data Privacy",
+        "멀티모달 데이터 프라이버시를 위한 Agentic 시스템"
+      ),
+      dates: L("Apr 2025 – Present", "2025.04 – 진행 중"),
+      description: L(
+        "Multimodal AI for privacy-preserving PII detection, tracking, and de-identification across modalities. Leading research design and modeling.",
+        "멀티모달 전반에서 개인정보를 탐지·추적·비식별화하는 AI 연구. 연구 설계와 모델링을 주도."
+      ),
+      technologies: ["Agentic system", "Multimodal", "Privacy", "De-identification"],
+    },
+    {
+      title: L(
         "Time-Series Anomaly Detection & Failure Prediction on Server Metrics",
         "서버 메트릭 시계열 이상 탐지·장애 예측"
       ),
@@ -170,18 +182,6 @@ export const DATA = {
         "이미지 비식별화를 위한 Diffusion 기반 얼굴 교체 파이프라인을 개발. 포즈와 표정을 유지한 채 참조 얼굴로 교체하며, ReferenceNet 기반 스왑 모듈을 통해 블러·모자이크 방식보다 이미지의 활용도를 높임."
       ),
       technologies: ["Vision", "Diffusion", "Face Swap"],
-    },
-    {
-      title: L(
-        "Agentic Multimodal PII Detection & De-identification",
-        "Agentic 멀티모달 개인정보 탐지·비식별화"
-      ),
-      dates: L("Apr 2025 – Present", "2025.04 – 진행 중"),
-      description: L(
-        "Multimodal AI for privacy-preserving PII detection, tracking, and de-identification across modalities. Leading research design and modeling.",
-        "멀티모달 전반에서 개인정보를 탐지·추적·비식별화하는 AI 연구. 연구 설계와 모델링을 주도."
-      ),
-      technologies: ["Agentic system", "Multimodal", "Privacy", "De-identification"],
     },
     {
       title: L(
@@ -300,6 +300,13 @@ export const DATA = {
   ],
 
   news: [
+    {
+      date: L("Oct 2026", "2026.10"),
+      text: L(
+        "Named a **NeurIPS 2026 Top Reviewer** (E&D Track). 🏅",
+        "**NeurIPS 2026 Top Reviewer**로 선정되었습니다 (E&D Track). 🏅"
+      ),
+    },
     {
       date: L("Apr 2026", "2026.04"),
       text: L(
